@@ -48,11 +48,12 @@ License: [MIT](LICENSES/MIT.txt)
 
 License: [MIT](LICENSES/MIT.txt)
 
-None yet.
+- [security-awareness](skills/security-awareness/): Use for agents that access email, credential vaults, web browsers, or sensitive data. Teaches agents to recognize and avoid security threats during normal activity, including phishing detection, credential protection, domain verification, and social engineering defense.
+  - Source: https://github.com/trailofbits/skills-curated, 022fa09
 
 ### CC-BY-SA-4.0-derived Skills
 
 License: [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)
 
 - [planning-with-files](skills/planning-with-files/): Use for complex, multi-step tasks that require maintaining state across many tool calls. This skill uses markdown files on disk as persistent working memory to overcome context window limitations.
-  - Source: https://github.com/trailofbits/skills-curated
+  - Source: https://github.com/trailofbits/skills-curated, 022fa09
