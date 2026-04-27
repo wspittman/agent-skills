@@ -55,5 +55,7 @@ License: [MIT](LICENSES/MIT.txt)
 
 License: [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)
 
+- [humanizer](skills/humanizer/): Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive "Signs of AI writing" guide. Detects and fixes patterns including: inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, negative parallelisms, and excessive conjunctive phrases.
+  - Source: https://github.com/trailofbits/skills-curated, 022fa09
 - [planning-with-files](skills/planning-with-files/): Use for complex, multi-step tasks that require maintaining state across many tool calls. This skill uses markdown files on disk as persistent working memory to overcome context window limitations.
   - Source: https://github.com/trailofbits/skills-curated, 022fa09
