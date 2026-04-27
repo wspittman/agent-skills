@@ -42,7 +42,7 @@ cp -R "$SRC_DIR/skills/." "$INSTALL_DIR/"
 
 License: [MIT](LICENSES/MIT.txt)
 
-- [write-unit-test](skills/write-unit-test/SKILL.md): Use when you must write or update unit tests. This skill helps to ensure that tests are written to match the surrounding workspace conventions.
+- [write-unit-test](skills/write-unit-test/): Use when you must write or update unit tests. This skill helps to ensure that tests are written to match the surrounding workspace conventions.
 
 ### MIT-derived Skills
 
@@ -54,4 +54,5 @@ None yet.
 
 License: [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)
 
-None yet.
+- [planning-with-files](skills/planning-with-files/): Use for complex, multi-step tasks that require maintaining state across many tool calls. This skill uses markdown files on disk as persistent working memory to overcome context window limitations.
+  - Source: https://github.com/trailofbits/skills-curated
