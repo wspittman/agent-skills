@@ -42,6 +42,7 @@ cp -R "$SRC_DIR/skills/." "$INSTALL_DIR/"
 
 License: [MIT](LICENSES/MIT.txt)
 
+- [dry-utils-cosmosdb-mockdb](skills/dry-utils-cosmosdb-mockdb/): Use when developing code that interacts with dry-utils-cosmosdb and no real Cosmos DB instance is available, such as when writing unit tests or in a container environment. This skill helps you set up mock databases, seed data, define custom query handlers, simulate errors, and leverage built-in query support.
 - [write-unit-test](skills/write-unit-test/): Use when you must write or update unit tests. This skill helps to ensure that tests are written to match the surrounding workspace conventions.
 
 ### MIT-derived Skills
