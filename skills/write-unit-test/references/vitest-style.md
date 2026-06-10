@@ -9,8 +9,9 @@ Use this reference when editing unit tests in the `vitest` framework.
 
 ## Preferred structure
 
-- Group tests with `suite(...)`.
-- Prefer dense, table-driven cases over many small bespoke tests
+- Group tests with a single file-level `suite(...)`.
+  - Prefer to avoid sub-suite groupings unless the test file is very large or there are many different tests for individual functions
+- Prefer dense, parameterized, table-driven cases over many small bespoke tests
   - Lean on arrays `test.for(...)` when several variants exercise the same behavior.
   - This is used even when the case matrix gets fairly large or slightly hard to scan.
 - Generate practical test names from case data when that keeps the file compact.
