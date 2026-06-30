@@ -8,7 +8,7 @@ description: >-
 
 Use persistent markdown files as working memory on disk.
 
-Each multi-step task should use a separate task folder under `.agents/plans/` with a concise name. Example: `.agents/plans/build-weather-app/`.
+Each multi-step task should use a separate task folder under `.plans/` with a concise name. Example: `.plans/build-weather-app/`.
 
 ## Quick Start
 
@@ -54,7 +54,7 @@ After many tool calls, the original goal drifts out of the attention window. Rea
 | `findings.md`  | Research, discoveries, decisions | After ANY discovery        |
 | `progress.md`  | Session log, test results        | Throughout the session     |
 
-All three files go in the **task folder**, `.agents/plans/<task_name>/`. This keeps all task-related information together and prevents cluttering the project root.
+All three files go in the **task folder**, `.plans/<task_name>/`. This keeps all task-related information together and prevents cluttering the project root.
 
 ## Critical Rules
 

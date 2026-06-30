@@ -19,7 +19,7 @@ Write the smallest useful test that matches the target workspace's existing patt
 ## Guidance
 
 - Avoid new dependencies for testing unless the user explicitly needs them.
-- If you learn a non-obvious repository convention while writing tests, add it to `.agents/learnings.md`.
+- If you learn a non-obvious repository convention while writing tests, add it to `.plans/learnings.md`.
 
 ## Style-matching rules
 

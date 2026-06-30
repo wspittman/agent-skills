@@ -1,6 +1,6 @@
 # Planning File Templates
 
-Starter templates for the three planning files. Copy to your task folder under `.agents/plans/<task_name>/` and fill in the bracketed sections.
+Starter templates for the three planning files. Copy to your task folder under `.plans/<task_name>/` and fill in the bracketed sections.
 
 ## task_plan.md
 
